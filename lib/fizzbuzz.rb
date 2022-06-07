@@ -1,14 +1,10 @@
-=begin
-if num % 3 == 0 && num % 5 == 0
-    puts “fizzBuzz”
+def fizzbuzz(num)
+  if num % 3 == 0 && num % 5 == 0
+    return "fizzBuzz"
   elsif num % 3 == 0
-    puts “fizz”
+    return "fizz"
   elsif num % 5 == 0
-    puts “buzz”
+    return "buzz"
   end
-=end
 
-
-def fizzbuzz(number)
-  'fizz'
 end
